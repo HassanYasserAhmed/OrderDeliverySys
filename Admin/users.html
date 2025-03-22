@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Delivery System</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/systemStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt=""/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="../index.html">Home</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3" href="#Orders active">Orders</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="reports.html">Reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="revenues.html">Revenues</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="Expenses.html">Expenses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3 active" href="users.html">Users</a>
+              </li>
+              </ul>
+              <!-- <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div> -->
+              <a class="btn main-btn rounded-pill" href="orders.html">Account</a>
+              <a href="AdminAccountSettings.html">
+                <i class="fa-solid fa-gear ms-2 text-light"></i>
+            </a>
+            <a href="..\login.html">
+              <i class=" ms-4 fa-solid fa-sign-out ms-2 text-light"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="rows">
+        <div class="input-group  mt-5 m-auto w-50 col-lg-6">
+          <input type="text" id="searchInput" class="form-control" placeholder="Search by name or email...">
+          <button class="btn btn-primary">Search</button>
+      </div>
+  
+  
+        <div cass="mainTable  UsersTable text-center col-lg-10 col-sm-12 ">
+          <section class="Table_header pt-5 pb-2">
+          </section>
+          <div class="table_Body col-md-12 table-responsive">
+            <table>
+              <thead>
+                <tr>
+                  <th>Full Name</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                  <th>Role</th>
+                  <th>Status</th>
+                  <th>Joined At</th>
+                  <th>Status</th>
+                  <th> Actions</th>
+        
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+  
+                <tr>
+                  <td>1</td>
+                  <td>22/1/2025</td>
+                  <td>Hassan</td>
+                  <td>20$</td>
+                  <td>Sohag</td>
+                  <td>Aswan</td>
+                  <td>Active</td>
+                  <td>
+                    <a class="btn main-btn rounded-pill text-light ViewDetails" href="orderDetails.html">View Details</a>
+                    <a class="btn main-btn rounded-pill text-light EditeUser" href="orderDetails.html">Edite</a>
+                    <a class="btn main-btn rounded-pill text-light DeleteUser" href="orderDetails.html">Delete</a>
+                  </td>
+                </tr>
+              </tbody>
+              
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="footer pt-5 pb-5 text-white-50 text-center">
+          2025
+      </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src ="js/all.min.js AccountLoginbtn"></script>
+</body>
+</html>
