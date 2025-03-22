@@ -1,0 +1,158 @@
+:root {
+    --dark-color :#19283ff7 ;
+    --dark-color2 :#19283f ;
+    --green-color: #33d1cc ;
+    --red-color : #ff3150;
+    --yellow-color: #ffc400;
+    --section-color :#eff7fa;
+    --trow-color :#aeb5be;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.main-btn {
+    background-color: var(--red-color);
+    color:var(--yellow-color);
+    padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+    color:var(--green-color);
+    font-size: bold;
+}
+
+nav {
+background-color: var(--dark-color);
+color:var(--section-color);
+}
+nav .nav-link {
+    color:white;
+}
+nav .nav-link:hover {
+    color:var(--green-color);
+}
+nav .nav-link.active {
+    color:var(--green-color);
+}
+.deliveryHeroImg {
+    width: 500px;
+    height: 500px;
+    margin: 5px 5px;
+    border-radius: 6px;
+    margin-left: -45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hero-section {
+    background-color: var(--dark-color2);
+
+}
+
+/* about section */
+.about-section {
+    background-color: #e6e1e1;
+}
+.ReadMore {
+    background-color: var(--red-color);
+    border:none;
+    outline: none;
+    color:var(--yellow-color);
+}
+.ReadMore:hover {
+    color: var(--green-color);
+}
+/* about end */
+/* serverices start */
+.service-card {
+    background: var(--green-color);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+
+}
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.py-5 {
+    background: linear-gradient(135deg, #6c63ff, #9a8cff);
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* serverices start */
+
+
+/* Customer's Orders */
+.table_Body  table,.table_Body th, .table_Body td{
+    padding :1rem;
+    text-align: center;
+
+}
+.mainTable {
+    /* min-width:1000px; */
+    margin-top:20px;
+padding-bottom:20px;
+}
+.table_Body table {
+background-color: var(--section-color);
+border-radius:7px;
+/* min-width:1000px; */
+margin: auto;
+
+}
+
+.pending:hover {
+color:var(--yellow-color);
+cursor:auto;
+}
+.ViewDetails {
+    background-color: green;
+}
+.spPending {
+    background-color:#d39e00
+}
+.OrderAdditionalInfo p {
+    max-width: 700px;
+}
+.AddNewOrder {
+    margin-left:1120px;
+}
+/* transactins start */
+.status-completed {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.status-canceled {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.status-pending {
+    background-color: #fd7e14;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+/* transactins end */
+
+.btn.EditeUser {
+    background-color: #4caf50;
+}
+.btn.DeleteUser {
+    background-color:  #f44336;
+}
+.btn.ViewDetails {
+    background-color: #2196f3;
+}
+.table thead{
+    background-color: var(--red-color);
+    color: whitesmoke;
+}
