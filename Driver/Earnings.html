@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Delivery System</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/systemStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt=""/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link p-2 p-lg-3" href="../index.html">Home</a>
+                </li>
+                  <a class="nav-link p-2 p-lg-3" href="orders.html">Orders</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" href="Earnings.html">Earnings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="RateHistory.html">Rate History</a>
+            </li>
+            </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <a class="btn main-btn rounded-pill AccountLoginbtn" href="#Login">Account</a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+<div class="landing">
+  <div class="container">
+    <p>test</p>
+  </div>
+</div>
+
+
+
+
+
+<div class="container">
+  <h1 class="text-center mb-4">Driver Earnings Dashboard</h1>
+  <div class="row g-4">
+
+      <!-- Total Earnings -->
+      <div class="col-md-4">
+          <div class="card text-white bg-primary shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Total Earnings</h5>
+                  <p class="card-text fs-3">$5000</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Completed Orders -->
+      <div class="col-md-4">
+          <div class="card text-white bg-success shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Completed Orders</h5>
+                  <p class="card-text fs-3">120</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Tips -->
+      <div class="col-md-4">
+          <div class="card text-white bg-info shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Tips</h5>
+                  <p class="card-text fs-3">$300</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Daily Earnings -->
+      <div class="col-md-4">
+          <div class="card text-white bg-warning shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Daily Earnings</h5>
+                  <p class="card-text fs-3">$150</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Weekly Earnings -->
+      <div class="col-md-4">
+          <div class="card text-white bg-secondary shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Weekly Earnings</h5>
+                  <p class="card-text fs-3">$900</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Monthly Earnings -->
+      <div class="col-md-4">
+          <div class="card text-white bg-dark shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Monthly Earnings</h5>
+                  <p class="card-text fs-3">$3500</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Current Balance -->
+      <div class="col-md-12">
+          <div class="card text-white bg-danger shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Current Balance</h5>
+                  <p class="card-text fs-2">$1500</p>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+<div class="container">
+  <!-- Payment Methods -->
+  <div class="card mb-4 text-center w-50 m-auto pt-3 pb-3">
+      <div class="card-body">
+          <label for="payment-method" class="form-label">Choose a payment method:</label>
+          <select id="payment-method" class="form-select">
+              <option selected disabled>-- Select Payment Method --</option>
+              <option value="bank">Bank Transfer</option>
+              <option value="knet">K-Net</option>
+              <option value="visa">Visa</option>
+              <option value="mastercard">MasterCard</option>
+              <option value="applepay">Apple Pay</option>
+          </select>
+      </div>
+  </div>
+
+  <!-- Withdraw Request Button -->
+   <div class="m-auto d-flex justify-content-center">
+       <button class="btn btn-success w-10  py-3 fs-5 ">Request Withdrawal</button>
+   </div>
+    <!-- Last Payout Date -->
+    <div class="card mb-4 mt-5">
+      <div class="card-header bg-info text-white fw-bold">
+          Last Payout Date
+      </div>
+      <div class="card-body text-center">
+          <p class="fs-4 text-muted">March 10, 2025</p>
+      </div>
+  </div>
+</div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src ="../js/all.min.js"></script>
+    <script src="../js/OrderSystem.js"></script>
+
+</body>
+</html>

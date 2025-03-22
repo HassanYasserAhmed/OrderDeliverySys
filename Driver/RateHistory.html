@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Delivery System</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/systemStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt=""/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link p-2 p-lg-3" href="../index.html">Home</a>
+                </li>
+                  <a class="nav-link p-2 p-lg-3" href="orders.html">Orders</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="Earnings.html">Earnings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" href="RateHistory.html">Rate History</a>
+            </li>
+            </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <a class="btn main-btn rounded-pill AccountLoginbtn" href="#Login">Account</a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+<div class="container mt-5">
+
+  <div class="row g-4">
+      <!-- Total Reviews -->
+      <div class="col-md-4">
+          <div class="card text-white bg-primary">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Total Reviews</h5>
+                  <p class="display-4 fw-bold">120</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Positive Ratings Percentage -->
+      <div class="col-md-4">
+          <div class="card text-white bg-success">
+              <div class="card-body text-center">
+                  <h5 class="card-title">Positive Ratings</h5>
+                  <p class="display-4 fw-bold">85%</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Ratings per Star -->
+      <div class="col-md-4">
+          <div class="card text-dark bg-warning">
+              <div class="card-body">
+                  <h5 class="card-title">Ratings Breakdown</h5>
+                  <ul class="list-unstyled">
+                      <li>⭐ 5 Stars - 70 Reviews</li>
+                      <li>⭐ 4 Stars - 30 Reviews</li>
+                      <li>⭐ 3 Stars - 10 Reviews</li>
+                      <li>⭐ 2 Stars - 5 Reviews</li>
+                      <li>⭐ 1 Star - 5 Reviews</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div clas="row mt-5">
+  <div class="table-responsive mt-5">
+    <table class="table table-striped table-bordered col-lg-10">
+        <thead class="Table TableRating col-md-12">
+            <tr>
+                <th>Client Name</th>
+                <th>Date</th>
+                <th>Rating</th>
+                <th>Comment</th>
+                <th>Trip Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmed Ali</td>
+                <td>March 12, 2025</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Excellent service!</td>
+                <td>Food Delivery</td>
+            </tr>
+            <tr>
+                <td>Sara Mohamed</td>
+                <td>March 10, 2025</td>
+                <td>⭐⭐⭐☆</td>
+                <td>A bit late</td>
+                <td>Goods Transport</td>
+            </tr>
+            <tr>
+                <td>Youssef Khaled</td>
+                <td>March 8, 2025</td>
+                <td>⭐⭐⭐⭐☆</td>
+                <td>Professional driver</td>
+                <td>Personal Request</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src ="../js/all.min.js"></script>
+    <script src="../js/OrderSystem.js"></script>
+
+</body>
+</html>

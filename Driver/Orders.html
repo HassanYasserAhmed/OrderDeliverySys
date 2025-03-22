@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Delivery System</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/systemStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt=""/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link p-2 p-lg-3" href="../index.html">Home</a>
+                </li>
+                  <a class="nav-link p-2 p-lg-3 active" href="orders.html">Orders</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="Earnings.html">Earnings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="RateHistory.html">Rate History</a>
+            </li>
+            </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <a class="btn main-btn rounded-pill AccountLoginbtn" href="#Login">Account</a>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div class="container-fluid mainTable Orders text-center">
+        <section class="Table_header pt-5 pb-2 text-center">
+          <h2>Active Orders</h2>
+        </section>
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead class="table orders">
+              <tr>
+                <th>Order ID</th>
+                <th>Order Date</th>
+                <th>Reciver Name</th>
+                <th>Price</th>
+                <th>Payment Method</th>
+                <th>Sender Location</th>
+                <th>Reciver Location</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>22/1/2025</td>
+                <td>Hassan</td>
+                <td>20$</td>
+                <td>Cash</td>
+                <td>Sohag</td>
+                <td>Aswan</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>22/1/2025</td>
+                <td>Hassan</td>
+                <td>20$</td>
+                <td>Cash</td>
+                <td>Sohag</td>
+                <td>Aswan</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>22/1/2025</td>
+                <td>Hassan</td>
+                <td>20$</td>
+                <td>Cash</td>
+                <td>Sohag</td>
+                <td>Aswan</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>22/1/2025</td>
+                <td>Hassan</td>
+                <td>20$</td>
+                <td>Cash</td>
+                <td>Sohag</td>
+                <td>Aswan</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>22/1/2025</td>
+                <td>Hassan</td>
+                <td>20$</td>
+                <td>Cash</td>
+                <td>Sohag</td>
+                <td>Aswan</td>
+                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>23/1/2025</td>
+                <td>Ali</td>
+                <td>25$</td>
+                <td>Visa</td>
+                <td>Cairo</td>
+                <td>Giza</td>
+                <td><span class="badge bg-success">Completed</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>24/1/2025</td>
+                <td>Khaled</td>
+                <td>30$</td>
+                <td>K-Net</td>
+                <td>Alexandria</td>
+                <td>Luxor</td>
+                <td><span class="badge bg-danger">Cancelled</span></td>
+                <td>
+                  <a class="btn btn-info btn-sm" href="../orderDetails.html">View Details</a>
+                  <a class="btn btn-primary btn-sm" href="AddNewOrder.html">Update</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+
+      
+<div class="container text-center my-5">
+  <section class="Table_header pt-5 pb-2">
+    <h2>Orders Near You</h2>
+  </section>
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle">
+      <thead class="table">
+        <tr>
+          <th>Order ID</th>
+          <th>Order Date</th>
+          <th>Reciver Name</th>
+          <th>Price</th>
+          <th>Payment Method</th>
+          <th>Sender Location</th>
+          <th>Reciver Location</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>23/1/2025</td>
+          <td>Ahmed</td>
+          <td>25$</td>
+          <td>Credit Card</td>
+          <td>Cairo</td>
+          <td>Giza</td>
+          <td>
+            <span class="badge bg-warning text-dark">Pending</span>
+          </td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+            <a class="btn btn-success btn-sm" href="AddNewOrder.html">Accept</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+<div class="container my-5 text-center">
+  <section class="Table_header pt-5 pb-2">
+    <h2>Orders History</h2>
+  </section>
+  
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle">
+      <thead class="table">
+        <tr>
+          <th>Order ID</th>
+          <th>Order Date</th>
+          <th>Receiver Name</th>
+          <th>Price</th>
+          <th>Payment Method</th>
+          <th>Sender Location</th>
+          <th>Receiver Location</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>22/1/2025</td>
+          <td>Hassan</td>
+          <td>20$</td>
+          <td>Cash</td>
+          <td>Sohag</td>
+          <td>Aswan</td>
+          <td><span class="badge bg-warning text-dark">Pending</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>2</td>
+          <td>23/1/2025</td>
+          <td>Ahmed</td>
+          <td>25$</td>
+          <td>Credit Card</td>
+          <td>Cairo</td>
+          <td>Giza</td>
+          <td><span class="badge bg-success">Completed</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>3</td>
+          <td>24/1/2025</td>
+          <td>Khaled</td>
+          <td>15$</td>
+          <td>K-Net</td>
+          <td>Alexandria</td>
+          <td>Port Said</td>
+          <td><span class="badge bg-danger">Canceled</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24/1/2025</td>
+          <td>Khaled</td>
+          <td>15$</td>
+          <td>K-Net</td>
+          <td>Alexandria</td>
+          <td>Port Said</td>
+          <td><span class="badge bg-danger">Canceled</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24/1/2025</td>
+          <td>Khaled</td>
+          <td>15$</td>
+          <td>K-Net</td>
+          <td>Alexandria</td>
+          <td>Port Said</td>
+          <td><span class="badge bg-danger">Canceled</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24/1/2025</td>
+          <td>Khaled</td>
+          <td>15$</td>
+          <td>K-Net</td>
+          <td>Alexandria</td>
+          <td>Port Said</td>
+          <td><span class="badge bg-danger">Canceled</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>24/1/2025</td>
+          <td>Khaled</td>
+          <td>15$</td>
+          <td>K-Net</td>
+          <td>Alexandria</td>
+          <td>Port Said</td>
+          <td><span class="badge bg-danger">Canceled</span></td>
+          <td>
+            <a class="btn btn-primary btn-sm" href="../orderDetails.html">View Details</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+      
+
+
+
+      <div class="footer pt-5 pb-5 text-white-50 text-center tex-md-start">
+        <div class="container">
+          2025
+      </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src ="js/all.min.js"></script>
+    <script src="js/OrderSystem.js"></script>
+
+</body>
+</html>
