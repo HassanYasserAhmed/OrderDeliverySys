@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Delivery System</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/systemStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" alt=""/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <li class="nav-item">
+                    <a class="nav-link p-2 p-lg-3 active" href="../index.html">Home</a>
+                  </li>
+                    <a class="nav-link p-2 p-lg-3 Orders" href="orders.html">Orders</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="transactions.html">Transactions</a>
+              </li>
+              </ul>
+              <div class="search ps-3 pe-3 d-none d-lg-none">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <a class="btn main-btn rounded-pill AccountLoginbtn" href="Customer.html">Account</a>
+              <a href="CustomerAccountSettings.html">
+                <i class="fa-solid fa-gear ms-2 text-light"></i>
+            </a>
+            <a href="..\login.html">
+              <i class=" ms-4 fa-solid fa-sign-out ms-2 text-light"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+      <div class="container mt-5">
+        <div class="card shadow-lg border-0 rounded-3">
+          <div class="card-header bg-primary text-white text-center py-3">
+            <h4 class="mb-0">Add New Order</h4>
+          </div>
+          <div class="card-body p-4">
+            <form id="addOrderForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="reciverName" class="form-label">Reciver Name:</label>
+                  <input id="reciverName" type="text" class="form-control" placeholder="Enter reciver name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="reciverPhone" class="form-label">Reciver Phone:</label>
+                  <input  id="reciverPhone" type="text"  class="form-control" placeholder="Enter reciver phone" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="weight" class="form-label">Weight (KG):</label>
+                  <input  id="weight" step="any" type="number" class="form-control" placeholder="Enter weight" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="senderLocation" class="form-label">Sender Location:</label>
+                  <input id="senderLocation" type="text" class="form-control" placeholder="Enter sender location" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="reciverLocation" class="form-label">Reciver Location:</label>
+                  <input  id="reciverLocation" type="text"  class="form-control" placeholder="Enter reciver location" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="paymentMethod" class="form-label">Payment Method:</label>
+                  <select id="paymentMethod" class="form-select" required>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Cash">Cash</option>
+                    <option value="K-Net">K-Net</option>
+                    <option value="Apple Pay">Apple Pay</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="OrderDetails" class="form-label">Order Details:</label>
+                  <input  id="OrderDetails" type="text"  class="form-control" placeholder="Enter Order Details" required>
+                </div>
+                </div>
+              
+              </div>
+              <div class="d-flex justify-content-end mt-4">
+                <a  class="btn btn-success me-2" id="AddNewOrder">Add Order</a>
+                <a type="reset" class="btn btn-secondary" href="orders.html">Cancel</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+      <div class="footer pt-5 pb-5 text-white-50 text-center tex-md-start">
+        <div class="container">
+          2025
+      </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src ="../js/all.min.js"></script>
+    <script src="../js/OrderSystem.js"></script>
+    <script src="../js/AddNewOrder.js"></script>
+
+</body>
+</html>
