@@ -33,7 +33,7 @@ function AddNewCustomer() {
         passwordHash: password.value
     };
 
-    fetch('http://hassan-yasser.runasp.net/api/testRegestrion/testRegesteration', {
+    fetch('https://hassan-yasser.runasp.net/api/testRegestrion/testRegesteration', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(NewCustomerData)
